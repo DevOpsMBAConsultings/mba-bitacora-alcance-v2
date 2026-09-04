@@ -5,7 +5,7 @@
   "borderColor": "#E0DEDE",
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
   "borderWidth": "1",
-  "bottomRow": 230,
+  "bottomRow": 290,
   "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
   "cachedTableData": {},
   "canFreezeColumn": true,
@@ -131,10 +131,10 @@
   "label": "Data",
   "leftColumn": 2,
   "minWidth": 450,
-  "mobileBottomRow": 230,
+  "mobileBottomRow": 290,
   "mobileLeftColumn": 2,
   "mobileRightColumn": 62,
-  "mobileTopRow": 98,
+  "mobileTopRow": 158,
   "needsErrorInfo": false,
   "onAddNewRowSave": "{{storeValue(\"filasAlcance\", [...(appsmith.store.filasAlcance || []), TableCuadroAlcance.newRow])}}",
   "parentColumnSpace": 13.53125,
@@ -163,7 +163,7 @@
       "isEditable": true,
       "isSaveVisible": true,
       "isVisible": true,
-      "label": "Módulo",
+      "label": "M\u00f3dulo",
       "notation": "standard",
       "originalId": "modulo",
       "sticky": "",
@@ -172,7 +172,7 @@
       "validation": {},
       "verticalAlignment": "CENTER",
       "width": 160,
-      "selectOptions": "Ventas, Punto de Venta (POS), Compras, Inventario, Código de Barras / WMS, Contabilidad, Contabilidad Analítica, Facturación Electrónica (PAC), Manufactura/Producción, Mantenimiento, RRHH y Planilla, Website/eCommerce, Reportería/Dashboards, Integraciones (Studio/API), Otro"
+      "selectOptions": "Ventas, Punto de Venta (POS), Compras, Inventario, C\u00f3digo de Barras / WMS, Contabilidad, Contabilidad Anal\u00edtica, Facturaci\u00f3n Electr\u00f3nica (PAC), Manufactura/Producci\u00f3n, Mantenimiento, RRHH y Planilla, Website/eCommerce, Reporter\u00eda/Dashboards, Integraciones (Studio/API), Otro"
     },
     "necesidad": {
       "alias": "necesidad",
@@ -258,7 +258,7 @@
       "isEditable": true,
       "isSaveVisible": true,
       "isVisible": true,
-      "label": "Categoría",
+      "label": "Categor\u00eda",
       "notation": "standard",
       "originalId": "categoria",
       "sticky": "",
@@ -267,7 +267,7 @@
       "validation": {},
       "verticalAlignment": "CENTER",
       "width": 150,
-      "selectOptions": "Entrenamiento, Proyecto, Soporte / Consultoría, Por definir"
+      "selectOptions": "Entrenamiento, Proyecto, Soporte / Consultor\u00eda, Por definir"
     },
     "tipoProyecto": {
       "alias": "tipoProyecto",
@@ -299,7 +299,7 @@
       "validation": {},
       "verticalAlignment": "CENTER",
       "width": 160,
-      "selectOptions": "Implementación, Integración, Desarrollo personalizado, Migración de datos, N/A, Por definir"
+      "selectOptions": "Implementaci\u00f3n, Integraci\u00f3n, Desarrollo personalizado, Migraci\u00f3n de datos, N/A, Por definir"
     },
     "tipoSolucion": {
       "alias": "tipoSolucion",
@@ -322,7 +322,7 @@
       "isEditable": true,
       "isSaveVisible": true,
       "isVisible": true,
-      "label": "Tipo de solución",
+      "label": "Tipo de soluci\u00f3n",
       "notation": "standard",
       "originalId": "tipoSolucion",
       "sticky": "",
@@ -331,7 +331,7 @@
       "validation": {},
       "verticalAlignment": "CENTER",
       "width": 170,
-      "selectOptions": "Estándar, Configuración, Aplicación de terceros, Desarrollo personalizado, Migración, Por definir"
+      "selectOptions": "Est\u00e1ndar, Configuraci\u00f3n, Aplicaci\u00f3n de terceros, Desarrollo personalizado, Migraci\u00f3n, Por definir"
     },
     "prioridad": {
       "alias": "prioridad",
@@ -418,7 +418,7 @@
   "showInlineEditingOptionDropdown": true,
   "tableData": "{{appsmith.store.filasAlcance || []}}",
   "textSize": "0.875rem",
-  "topRow": 98,
+  "topRow": 158,
   "totalRecordsCount": 0,
   "type": "TABLE_WIDGET_V2",
   "version": 2,
