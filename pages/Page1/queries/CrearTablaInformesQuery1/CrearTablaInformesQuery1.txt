@@ -1,0 +1,12 @@
+CREATE TABLE IF NOT EXISTS informes (
+  id SERIAL PRIMARY KEY,
+  fecha TIMESTAMPTZ NOT NULL DEFAULT now(),
+  cliente_nombre TEXT,
+  contacto_nombre TEXT,
+  contacto_email TEXT,
+  contacto_telefono TEXT,
+  odoo JSONB,
+  alcance JSONB,
+  sprints JSONB,
+	  notas TEXT
+);

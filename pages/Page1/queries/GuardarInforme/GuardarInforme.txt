@@ -1,0 +1,12 @@
+INSERT INTO informes (cliente_nombre, contacto_nombre, contacto_email, contacto_telefono, odoo, alcance, sprints, notas)
+VALUES (
+  {{InputClienteNombre.text}},
+  {{InputContactoNombre.text}},
+  {{InputContactoEmail.text}},
+  {{InputContactoTelefono.text}},
+  {{JSON.stringify({tiene: SelectOdooTiene.selectedOptionValue, version: InputOdooVersion.text, tipo: SelectOdooTipo.selectedOptionValue, hosting: SelectOdooHosting.selectedOptionValue, licencias: InputOdooLicencias.text, adquisicion: SelectOdooAdquisicion.selectedOptionValue, soporte: SelectOdooSoporte.selectedOptionValue})}}::jsonb,
+  {{JSON.stringify(TableCuadroAlcance.processedTableData)}}::jsonb,
+  {{JSON.stringify(TableSprints.processedTableData)}}::jsonb,
+  {{InputNotas.text}}
+)
+RETURNING id;

@@ -1,0 +1,3 @@
+SELECT id, fecha, cliente_nombre, contacto_nombre, contacto_email, contacto_telefono, odoo, alcance, sprints, notas
+FROM informes
+ORDER BY fecha DESC;
