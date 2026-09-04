@@ -5,7 +5,7 @@
   "borderColor": "#E0DEDE",
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
   "borderWidth": "1",
-  "bottomRow": 600,
+  "bottomRow": 582,
   "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
   "cachedTableData": {},
   "canFreezeColumn": true,
@@ -50,15 +50,6 @@
   "delimiter": ",",
   "dynamicBindingPathList": [
     {
-      "key": "accentColor"
-    },
-    {
-      "key": "borderRadius"
-    },
-    {
-      "key": "boxShadow"
-    },
-    {
       "key": "tableData"
     },
     {
@@ -72,6 +63,15 @@
     },
     {
       "key": "primaryColumns.semanasSprint.computedValue"
+    },
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "boxShadow"
     }
   ],
   "dynamicPropertyPathList": [
@@ -101,42 +101,13 @@
   "mobileRightColumn": 45,
   "mobileTopRow": 475,
   "needsErrorInfo": false,
+  "originalBottomRow": 582,
+  "originalTopRow": 457,
   "parentColumnSpace": 13.53125,
   "parentId": "0",
   "parentRowSpace": 10,
   "primaryColumnId": "fecha",
   "primaryColumns": {
-    "fecha": {
-      "alias": "fecha",
-      "allowCellWrapping": false,
-      "allowSameOptionsInNewRow": true,
-      "columnType": "text",
-      "computedValue": "{{(() => { const tableData = TableInformesGuardados.processedTableData || []; return tableData.length > 0 ? tableData.map((currentRow, currentIndex) => (currentRow[\"fecha\"])) : \"\" })()}}",
-      "currencyCode": "USD",
-      "decimals": 0,
-      "enableFilter": true,
-      "enableSort": true,
-      "horizontalAlignment": "LEFT",
-      "id": "fecha",
-      "index": 0,
-      "isCellEditable": false,
-      "isCellVisible": true,
-      "isDerived": true,
-      "isDisabled": false,
-      "isDiscardVisible": true,
-      "isEditable": false,
-      "isSaveVisible": true,
-      "isVisible": true,
-      "label": "Fecha",
-      "notation": "standard",
-      "originalId": "fecha",
-      "sticky": "",
-      "textSize": "0.875rem",
-      "thousandSeparator": true,
-      "validation": {},
-      "verticalAlignment": "CENTER",
-      "width": 200
-    },
     "clienteNombre": {
       "alias": "clienteNombre",
       "allowCellWrapping": false,
@@ -167,6 +138,37 @@
       "validation": {},
       "verticalAlignment": "CENTER",
       "width": 220
+    },
+    "fecha": {
+      "alias": "fecha",
+      "allowCellWrapping": false,
+      "allowSameOptionsInNewRow": true,
+      "columnType": "text",
+      "computedValue": "{{(() => { const tableData = TableInformesGuardados.processedTableData || []; return tableData.length > 0 ? tableData.map((currentRow, currentIndex) => (currentRow[\"fecha\"])) : \"\" })()}}",
+      "currencyCode": "USD",
+      "decimals": 0,
+      "enableFilter": true,
+      "enableSort": true,
+      "horizontalAlignment": "LEFT",
+      "id": "fecha",
+      "index": 0,
+      "isCellEditable": false,
+      "isCellVisible": true,
+      "isDerived": true,
+      "isDisabled": false,
+      "isDiscardVisible": true,
+      "isEditable": false,
+      "isSaveVisible": true,
+      "isVisible": true,
+      "label": "Fecha",
+      "notation": "standard",
+      "originalId": "fecha",
+      "sticky": "",
+      "textSize": "0.875rem",
+      "thousandSeparator": true,
+      "validation": {},
+      "verticalAlignment": "CENTER",
+      "width": 200
     },
     "itemsAlcance": {
       "alias": "itemsAlcance",
@@ -239,7 +241,7 @@
   "showInlineEditingOptionDropdown": true,
   "tableData": "{{ObtenerInformes.data || []}}",
   "textSize": "0.875rem",
-  "topRow": 475,
+  "topRow": 457,
   "totalRecordsCount": 0,
   "type": "TABLE_WIDGET_V2",
   "version": 2,

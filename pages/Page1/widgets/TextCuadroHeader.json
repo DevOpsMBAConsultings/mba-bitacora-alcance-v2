@@ -1,53 +1,46 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 143,
   "boxShadow": "none",
-  "isLoading": false,
-  "isVisible": true,
-  "leftColumn": 2,
-  "topRow": 148,
-  "rightColumn": 45,
-  "bottomRow": 155,
-  "mobileLeftColumn": 2,
-  "mobileTopRow": 148,
-  "mobileRightColumn": 45,
-  "mobileBottomRow": 155,
-  "needsErrorInfo": false,
-  "parentColumnSpace": 13.53125,
-  "parentId": "0",
-  "parentRowSpace": 10,
-  "renderMode": "CANVAS",
-  "responsiveBehavior": "fill",
-  "widgetId": "waipcbvmmg",
-  "widgetName": "TextCuadroHeader",
-  "key": "7wunz2cbrs",
   "dynamicBindingPathList": [
     {
-      "key": "truncateButtonColor"
-    },
-    {
       "key": "fontFamily"
-    },
-    {
-      "key": "borderRadius"
-    },
-    {
-      "key": "text"
     }
   ],
   "dynamicHeight": "AUTO_HEIGHT",
   "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
   "fontSize": "1.25rem",
   "fontStyle": "BOLD",
+  "isLoading": false,
+  "isVisible": true,
+  "key": "7wunz2cbrs",
+  "leftColumn": 2,
   "maxDynamicHeight": 9000,
   "minDynamicHeight": 4,
   "minWidth": 450,
+  "mobileBottomRow": 155,
+  "mobileLeftColumn": 2,
+  "mobileRightColumn": 45,
+  "mobileTopRow": 148,
+  "needsErrorInfo": false,
+  "originalBottomRow": 143,
+  "originalTopRow": 139,
   "overflow": "NONE",
+  "parentColumnSpace": 13.53125,
+  "parentId": "0",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 45,
   "shouldTruncate": false,
   "text": "Cuadro de Alcance",
   "textAlign": "LEFT",
   "textColor": "#231F20",
+  "topRow": 139,
   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
   "type": "TEXT_WIDGET",
-  "version": 1
+  "version": 1,
+  "widgetId": "waipcbvmmg",
+  "widgetName": "TextCuadroHeader"
 }

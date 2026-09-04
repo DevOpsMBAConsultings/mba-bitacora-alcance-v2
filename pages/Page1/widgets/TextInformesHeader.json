@@ -1,53 +1,46 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 454,
   "boxShadow": "none",
-  "isLoading": false,
-  "isVisible": true,
-  "leftColumn": 2,
-  "topRow": 465,
-  "rightColumn": 45,
-  "bottomRow": 472,
-  "mobileLeftColumn": 2,
-  "mobileTopRow": 465,
-  "mobileRightColumn": 45,
-  "mobileBottomRow": 472,
-  "needsErrorInfo": false,
-  "parentColumnSpace": 13.53125,
-  "parentId": "0",
-  "parentRowSpace": 10,
-  "renderMode": "CANVAS",
-  "responsiveBehavior": "fill",
-  "widgetId": "g37hjym5ls",
-  "widgetName": "TextInformesHeader",
-  "key": "tn5ig7adgs",
   "dynamicBindingPathList": [
     {
-      "key": "truncateButtonColor"
-    },
-    {
       "key": "fontFamily"
-    },
-    {
-      "key": "borderRadius"
-    },
-    {
-      "key": "text"
     }
   ],
   "dynamicHeight": "AUTO_HEIGHT",
   "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
   "fontSize": "1.25rem",
   "fontStyle": "BOLD",
+  "isLoading": false,
+  "isVisible": true,
+  "key": "tn5ig7adgs",
+  "leftColumn": 2,
   "maxDynamicHeight": 9000,
   "minDynamicHeight": 4,
   "minWidth": 450,
+  "mobileBottomRow": 472,
+  "mobileLeftColumn": 2,
+  "mobileRightColumn": 45,
+  "mobileTopRow": 465,
+  "needsErrorInfo": false,
+  "originalBottomRow": 454,
+  "originalTopRow": 450,
   "overflow": "NONE",
+  "parentColumnSpace": 13.53125,
+  "parentId": "0",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 45,
   "shouldTruncate": false,
   "text": "Informes guardados (en este navegador)",
   "textAlign": "LEFT",
   "textColor": "#231F20",
+  "topRow": 450,
   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
   "type": "TEXT_WIDGET",
-  "version": 1
+  "version": 1,
+  "widgetId": "g37hjym5ls",
+  "widgetName": "TextInformesHeader"
 }

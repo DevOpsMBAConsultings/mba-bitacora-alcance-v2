@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 457,
+  "bottomRow": 442,
   "boxShadow": "none",
   "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
   "buttonVariant": "PRIMARY",
@@ -12,9 +12,6 @@
     },
     {
       "key": "borderRadius"
-    },
-    {
-      "key": "onClick"
     }
   ],
   "dynamicTriggerPathList": [
@@ -35,6 +32,8 @@
   "mobileTopRow": 450,
   "needsErrorInfo": false,
   "onClick": "{{GuardarInforme.run(() => { ObtenerInformes.run(); showAlert(\"Informe guardado en la base de datos\", \"success\"); }, () => showAlert(\"Error al guardar el informe. Intenta de nuevo.\", \"error\"))}}",
+  "originalBottomRow": 442,
+  "originalTopRow": 435,
   "parentColumnSpace": 13.53125,
   "parentId": "0",
   "parentRowSpace": 10,
@@ -45,7 +44,7 @@
   "responsiveBehavior": "hug",
   "rightColumn": 22,
   "text": "Guardar informe completo",
-  "topRow": 450,
+  "topRow": 435,
   "type": "BUTTON_WIDGET",
   "version": 1,
   "widgetId": "gsavewid01",
