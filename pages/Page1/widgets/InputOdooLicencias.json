@@ -1,0 +1,53 @@
+{
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "boxShadow": "none",
+  "isLoading": false,
+  "isVisible": true,
+  "leftColumn": 2,
+  "topRow": 62,
+  "rightColumn": 31,
+  "bottomRow": 69,
+  "mobileLeftColumn": 2,
+  "mobileTopRow": 62,
+  "mobileRightColumn": 31,
+  "mobileBottomRow": 69,
+  "needsErrorInfo": false,
+  "parentColumnSpace": 13.53125,
+  "parentId": "0",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "widgetId": "a2d8fe262d",
+  "widgetName": "InputOdooLicencias",
+  "key": "b2475bc9d5",
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "autoFocus": false,
+  "defaultText": "ej. 10 usuarios",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "iconAlign": "left",
+  "inputType": "TEXT",
+  "isDisabled": false,
+  "isRequired": false,
+  "label": "Licencias",
+  "labelAlignment": "left",
+  "labelPosition": "Top",
+  "labelStyle": "",
+  "labelTextSize": "0.875rem",
+  "labelWidth": 5,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "minWidth": 450,
+  "resetOnSubmit": false,
+  "showStepArrows": false,
+  "type": "INPUT_WIDGET_V2",
+  "version": 2
+}

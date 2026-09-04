@@ -1,0 +1,58 @@
+{
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "boxShadow": "none",
+  "isLoading": false,
+  "isVisible": true,
+  "leftColumn": 2,
+  "topRow": 72,
+  "rightColumn": 31,
+  "bottomRow": 79,
+  "mobileLeftColumn": 2,
+  "mobileTopRow": 72,
+  "mobileRightColumn": 31,
+  "mobileBottomRow": 79,
+  "needsErrorInfo": false,
+  "parentColumnSpace": 13.53125,
+  "parentId": "0",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "widgetId": "904f723231",
+  "widgetName": "SelectOdooSoporte",
+  "key": "ccd0f9c24b",
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "defaultOptionValue": "Por definir",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [
+    {
+      "key": "sourceData"
+    }
+  ],
+  "isDisabled": false,
+  "isFilterable": true,
+  "isRequired": false,
+  "labelAlignment": "left",
+  "labelPosition": "Top",
+  "labelText": "Contrato de soporte",
+  "labelTextSize": "0.875rem",
+  "labelWidth": 5,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "minWidth": 450,
+  "optionLabel": "name",
+  "optionValue": "code",
+  "placeholderText": "Selecciona",
+  "serverSideFiltering": false,
+  "sourceData": "[\n  {\n    \"name\": \"Sí\",\n    \"code\": \"Sí\"\n  },\n  {\n    \"name\": \"No\",\n    \"code\": \"No\"\n  },\n  {\n    \"name\": \"Por definir\",\n    \"code\": \"Por definir\"\n  }\n]",
+  "type": "SELECT_WIDGET",
+  "version": 1
+}

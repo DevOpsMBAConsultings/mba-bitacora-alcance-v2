@@ -1,0 +1,53 @@
+{
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "boxShadow": "none",
+  "isLoading": false,
+  "isVisible": true,
+  "leftColumn": 34,
+  "topRow": 42,
+  "rightColumn": 63,
+  "bottomRow": 49,
+  "mobileLeftColumn": 34,
+  "mobileTopRow": 42,
+  "mobileRightColumn": 63,
+  "mobileBottomRow": 49,
+  "needsErrorInfo": false,
+  "parentColumnSpace": 13.53125,
+  "parentId": "0",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "widgetId": "fa5bd90c4a",
+  "widgetName": "InputOdooVersion",
+  "key": "f8f6e3d8a8",
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "autoFocus": false,
+  "defaultText": "ej. 17.0, 18.0",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "iconAlign": "left",
+  "inputType": "TEXT",
+  "isDisabled": false,
+  "isRequired": false,
+  "label": "Versión",
+  "labelAlignment": "left",
+  "labelPosition": "Top",
+  "labelStyle": "",
+  "labelTextSize": "0.875rem",
+  "labelWidth": 5,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "minWidth": 450,
+  "resetOnSubmit": false,
+  "showStepArrows": false,
+  "type": "INPUT_WIDGET_V2",
+  "version": 2
+}

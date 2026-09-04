@@ -1,0 +1,53 @@
+{
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "boxShadow": "none",
+  "isLoading": false,
+  "isVisible": true,
+  "leftColumn": 2,
+  "topRow": 11,
+  "rightColumn": 31,
+  "bottomRow": 18,
+  "mobileLeftColumn": 2,
+  "mobileTopRow": 11,
+  "mobileRightColumn": 31,
+  "mobileBottomRow": 18,
+  "needsErrorInfo": false,
+  "parentColumnSpace": 13.53125,
+  "parentId": "0",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "widgetId": "5a3f385804",
+  "widgetName": "InputClienteNombre",
+  "key": "184123e6ca",
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "autoFocus": false,
+  "defaultText": "",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "iconAlign": "left",
+  "inputType": "TEXT",
+  "isDisabled": false,
+  "isRequired": true,
+  "label": "Nombre del cliente",
+  "labelAlignment": "left",
+  "labelPosition": "Top",
+  "labelStyle": "",
+  "labelTextSize": "0.875rem",
+  "labelWidth": 5,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "minWidth": 450,
+  "resetOnSubmit": false,
+  "showStepArrows": false,
+  "type": "INPUT_WIDGET_V2",
+  "version": 2
+}

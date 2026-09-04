@@ -1,0 +1,58 @@
+{
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "boxShadow": "none",
+  "isLoading": false,
+  "isVisible": true,
+  "leftColumn": 34,
+  "topRow": 52,
+  "rightColumn": 63,
+  "bottomRow": 59,
+  "mobileLeftColumn": 34,
+  "mobileTopRow": 52,
+  "mobileRightColumn": 63,
+  "mobileBottomRow": 59,
+  "needsErrorInfo": false,
+  "parentColumnSpace": 13.53125,
+  "parentId": "0",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "widgetId": "1c89245e36",
+  "widgetName": "SelectOdooHosting",
+  "key": "91a2ac3eae",
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "defaultOptionValue": "Por definir",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [
+    {
+      "key": "sourceData"
+    }
+  ],
+  "isDisabled": false,
+  "isFilterable": true,
+  "isRequired": false,
+  "labelAlignment": "left",
+  "labelPosition": "Top",
+  "labelText": "Hosting",
+  "labelTextSize": "0.875rem",
+  "labelWidth": 5,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "minWidth": 450,
+  "optionLabel": "name",
+  "optionValue": "code",
+  "placeholderText": "Selecciona",
+  "serverSideFiltering": false,
+  "sourceData": "[\n  {\n    \"name\": \"On premise\",\n    \"code\": \"On premise\"\n  },\n  {\n    \"name\": \"SaaS (Odoo Online)\",\n    \"code\": \"SaaS (Odoo Online)\"\n  },\n  {\n    \"name\": \"Odoo.sh\",\n    \"code\": \"Odoo.sh\"\n  },\n  {\n    \"name\": \"Por definir\",\n    \"code\": \"Por definir\"\n  }\n]",
+  "type": "SELECT_WIDGET",
+  "version": 1
+}

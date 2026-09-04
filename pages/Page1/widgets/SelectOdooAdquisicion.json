@@ -1,0 +1,58 @@
+{
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "boxShadow": "none",
+  "isLoading": false,
+  "isVisible": true,
+  "leftColumn": 34,
+  "topRow": 62,
+  "rightColumn": 63,
+  "bottomRow": 69,
+  "mobileLeftColumn": 34,
+  "mobileTopRow": 62,
+  "mobileRightColumn": 63,
+  "mobileBottomRow": 69,
+  "needsErrorInfo": false,
+  "parentColumnSpace": 13.53125,
+  "parentId": "0",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "widgetId": "a07a631da3",
+  "widgetName": "SelectOdooAdquisicion",
+  "key": "eaf15a0180",
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "defaultOptionValue": "Por definir",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [
+    {
+      "key": "sourceData"
+    }
+  ],
+  "isDisabled": false,
+  "isFilterable": true,
+  "isRequired": false,
+  "labelAlignment": "left",
+  "labelPosition": "Top",
+  "labelText": "Adquisición",
+  "labelTextSize": "0.875rem",
+  "labelWidth": 5,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "minWidth": 450,
+  "optionLabel": "name",
+  "optionValue": "code",
+  "placeholderText": "Selecciona",
+  "serverSideFiltering": false,
+  "sourceData": "[\n  {\n    \"name\": \"Propio (directo con Odoo)\",\n    \"code\": \"Propio (directo con Odoo)\"\n  },\n  {\n    \"name\": \"Vía partner\",\n    \"code\": \"Vía partner\"\n  },\n  {\n    \"name\": \"Por definir\",\n    \"code\": \"Por definir\"\n  }\n]",
+  "type": "SELECT_WIDGET",
+  "version": 1
+}
