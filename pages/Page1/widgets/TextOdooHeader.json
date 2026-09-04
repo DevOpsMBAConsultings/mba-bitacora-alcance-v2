@@ -1,53 +1,46 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 34,
   "boxShadow": "none",
-  "isLoading": false,
-  "isVisible": true,
-  "leftColumn": 2,
-  "topRow": 33,
-  "rightColumn": 45,
-  "bottomRow": 40,
-  "mobileLeftColumn": 2,
-  "mobileTopRow": 33,
-  "mobileRightColumn": 45,
-  "mobileBottomRow": 40,
-  "needsErrorInfo": false,
-  "parentColumnSpace": 13.53125,
-  "parentId": "0",
-  "parentRowSpace": 10,
-  "renderMode": "CANVAS",
-  "responsiveBehavior": "fill",
-  "widgetId": "1e9e07d399",
-  "widgetName": "TextOdooHeader",
-  "key": "244d96632a",
   "dynamicBindingPathList": [
     {
-      "key": "truncateButtonColor"
-    },
-    {
       "key": "fontFamily"
-    },
-    {
-      "key": "borderRadius"
-    },
-    {
-      "key": "text"
     }
   ],
   "dynamicHeight": "AUTO_HEIGHT",
   "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
   "fontSize": "1.25rem",
   "fontStyle": "BOLD",
+  "isLoading": false,
+  "isVisible": true,
+  "key": "244d96632a",
+  "leftColumn": 2,
   "maxDynamicHeight": 9000,
   "minDynamicHeight": 4,
   "minWidth": 450,
+  "mobileBottomRow": 40,
+  "mobileLeftColumn": 2,
+  "mobileRightColumn": 45,
+  "mobileTopRow": 33,
+  "needsErrorInfo": false,
+  "originalBottomRow": 40,
+  "originalTopRow": 33,
   "overflow": "NONE",
+  "parentColumnSpace": 13.53125,
+  "parentId": "0",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 45,
   "shouldTruncate": false,
   "text": "Situación actual de Odoo",
   "textAlign": "LEFT",
   "textColor": "#231F20",
+  "topRow": 30,
   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
   "type": "TEXT_WIDGET",
-  "version": 1
+  "version": 1,
+  "widgetId": "1e9e07d399",
+  "widgetName": "TextOdooHeader"
 }
