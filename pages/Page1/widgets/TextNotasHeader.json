@@ -5,35 +5,27 @@
   "isLoading": false,
   "isVisible": true,
   "leftColumn": 2,
-  "topRow": 465,
+  "topRow": 88,
   "rightColumn": 45,
-  "bottomRow": 472,
+  "bottomRow": 95,
   "mobileLeftColumn": 2,
-  "mobileTopRow": 465,
+  "mobileTopRow": 88,
   "mobileRightColumn": 45,
-  "mobileBottomRow": 472,
+  "mobileBottomRow": 95,
   "needsErrorInfo": false,
   "parentColumnSpace": 13.53125,
   "parentId": "0",
   "parentRowSpace": 10,
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
-  "widgetId": "g37hjym5ls",
-  "widgetName": "TextInformesHeader",
-  "key": "tn5ig7adgs",
+  "widgetId": "textnotasheader01",
+  "widgetName": "TextNotasHeader",
+  "key": "textnotasheaderkey",
   "dynamicBindingPathList": [
-    {
-      "key": "truncateButtonColor"
-    },
-    {
-      "key": "fontFamily"
-    },
-    {
-      "key": "borderRadius"
-    },
-    {
-      "key": "text"
-    }
+    { "key": "truncateButtonColor" },
+    { "key": "fontFamily" },
+    { "key": "borderRadius" },
+    { "key": "text" }
   ],
   "dynamicHeight": "AUTO_HEIGHT",
   "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
@@ -44,7 +36,7 @@
   "minWidth": 450,
   "overflow": "NONE",
   "shouldTruncate": false,
-  "text": "Informes guardados (en este navegador)",
+  "text": "Notas de la entrevista",
   "textAlign": "LEFT",
   "textColor": "#231F20",
   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
